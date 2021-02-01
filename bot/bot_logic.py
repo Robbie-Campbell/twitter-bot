@@ -81,7 +81,7 @@ class Bot:
     def generate_a_post(self):
         if self.mood == "happy":
             return self.get_a_random_comment\
-                ("https://twitter.com/search?q=happy&src=typed_query&f=live")
+                ("https://twitter.com/search?q=excited&src=typed_query")
         elif self.mood == "angry":
             return self.get_a_random_comment\
                 ("https://twitter.com/search?q=angry&src=typed_query&f=live")
