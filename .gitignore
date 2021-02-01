@@ -139,4 +139,4 @@ cython_debug/
 
 secrets.py
 
-.idea
+.idea/
